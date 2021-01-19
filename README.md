@@ -8,12 +8,12 @@
 
 ## Animation types
 
-| Type                   
+Types                   
 
 1. Dashed 
-2. Infinity)
-3. Ripley)
-4. Quarbit)
+2. Infinity
+3. Ripley
+4. Quarbit
 
 ## Installation
 

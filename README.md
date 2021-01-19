@@ -4,7 +4,7 @@
 
 `PUWaitHUD` is a few types of awesome loading animations that can be used to add as api response waiting indicators.
 
-![Output](https://github.com/PayalUmraliya/PUWaitHUD/blob/main/output.gif)
+![Output](https://github.com/PayalUmraliya/PUWaitHUD/blob/main/hudoutput.gif)
 
 ## Animation types
 

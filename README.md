@@ -33,11 +33,11 @@ pod 'PUWaitHUD', :git => 'https://github.com/PayalUmraliya/PUWaitHUD.git', :bran
 
 ### Swift Package Manager
 
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. To use NVActivityIndicatorView with Swift Package Manger, add it to `dependencies` in your `Package.swift`
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. To use PUWaitHUD with Swift Package Manger, add it to `dependencies` in your `Package.swift`
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ninjaprox/NVActivityIndicatorView.git")
+    .package(url: "in progress")
 ]
 ```
 

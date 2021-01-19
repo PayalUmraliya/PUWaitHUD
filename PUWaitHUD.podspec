@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "PUWaitHUD"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A Waiting Loader to display until the API response receive."
 
  

@@ -33,7 +33,7 @@ spec.swift_version = "4.2"
   spec.source       = { :git => "https://github.com/PayalUmraliya/PUWaitHUD.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "Source/**/**/*.{h,m,swift}"
+  spec.source_files  = "WaitLoadingPro/Source/**/*"
 
 
 end

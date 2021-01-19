@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "PUWaitHUD"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "A Waiting Loader to display until the API response receive."
 
  
@@ -33,7 +33,7 @@ spec.swift_version = "4.2"
   spec.source       = { :git => "https://github.com/PayalUmraliya/PUWaitHUD.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "WaitLoadingPro/**/**/*.{h,m,swift}"
+  spec.source_files  = "Source/**/**/*.{h,m,swift}"
 
 
 end

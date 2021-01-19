@@ -21,13 +21,15 @@
 
 [Cocoapods](https://cocoapods.org/#install) is a dependency manager for Swift and Objective-C Cocoa projects. To use PUWaitHUD with CocoaPods, add it in your `Podfile`.
 
-
+```swift
 pod 'PUWaitHUD'
+```
 
 To specify with version:
 
+```swift
 pod 'PUWaitHUD', :git => 'https://github.com/PayalUmraliya/PUWaitHUD.git', :branch => '1.0.4'
-
+```
 
 ### Swift Package Manager
 
@@ -47,11 +49,37 @@ First you need to import `PUWaitHUD` at the view controller file where you are g
 import PUWaitHUD
 ```
 
-### Initialization
+### Show HUD
 
 ```swift
-NVActivityIndicatorView(frame: frame, type: type, color: color, padding: padding)
+func showLoading(_ vwname: UIView, _ typee: ActivityIndicatorType)
+{
+    hideLoading()
+    let vw = UIView.init(frame: UIScreen.main.bounds)
+    vw.tag = 99999
+    vw.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+    let activityView = ActivityIndicators().create(type: typee)
+    vw.addSubview(activityView!)
+    activityView?.color = .clear
+    activityView?.center = vw.center
+    activityView!.startAnimating()
+    vwname.addSubview(vw)
+}
 ```
+
+### Hide HUD
+
+```swift
+func hideLoading()
+{
+    UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.viewWithTag(99999)?.removeFromSuperview()
+}
+```
+
+### Note: Above is the basic usage for the HUD you can manage the parameters for the functions as per your need in order to make it global.
+
+###
+
 ## License
 
 The MIT License (MIT)

@@ -20,7 +20,6 @@ This CocoaPods library helps you add loading HUD in your mobile application to d
                    DESC
 
   spec.homepage     = "https://github.com/PayalUmraliya/PUWaitHUD"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
@@ -34,7 +33,7 @@ spec.swift_version = "4.2"
   spec.source       = { :git => "https://github.com/PayalUmraliya/PUWaitHUD.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "WaitLoadingPro/**/*.{h,m,swift}"
+  spec.source_files  = "Source/**/*.{h,m,swift}"
 
 
 end

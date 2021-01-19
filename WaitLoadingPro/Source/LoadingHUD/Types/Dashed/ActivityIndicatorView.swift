@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class ActivityIndicatorView: UIActivityIndicatorView {
+public class ActivityIndicatorView: UIActivityIndicatorView {
   public private(set) var view: UIView!
 
     override func didMoveToSuperview() {

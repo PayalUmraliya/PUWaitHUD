@@ -6,7 +6,7 @@
 import UIKit
 
 @IBDesignable
-class RipleyActivityIndicatorView: ActivityIndicatorView {
+public class RipleyActivityIndicatorView: ActivityIndicatorView {
     private lazy var ripley: RipleyView = {
         let startView = RipleyView(frame: .zero)
         startView.scale(to: frame.size)
@@ -20,7 +20,7 @@ class RipleyActivityIndicatorView: ActivityIndicatorView {
         return RipleyTimeline(view: ripley, duration: 0.75, repeatCount: .greatestFiniteMagnitude)
     }
     
-    override func createView() -> UIView {
+    public override func createView() -> UIView {
         return ripley
     }
 }

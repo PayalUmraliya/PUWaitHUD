@@ -6,7 +6,7 @@
 import UIKit
 
 @IBDesignable
-class QuarbitActivityIndicatorView: ActivityIndicatorView {
+public class QuarbitActivityIndicatorView: ActivityIndicatorView {
     private lazy var quarbit: QuarbitView = {
         let startView = QuarbitView(frame: .zero)
         startView.scale(to: frame.size)
@@ -20,7 +20,7 @@ class QuarbitActivityIndicatorView: ActivityIndicatorView {
         return QuarbitTimeline(view: quarbit, duration: 2, repeatCount: .greatestFiniteMagnitude)
     }
     
-    override func createView() -> UIView {
+    public override func createView() -> UIView {
         return quarbit
     }
 }

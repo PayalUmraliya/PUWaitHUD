@@ -6,7 +6,7 @@
 import UIKit
 
 @IBDesignable
-class InfinityActivityIndicatorView: ActivityIndicatorView {
+public class InfinityActivityIndicatorView: ActivityIndicatorView {
     private lazy var infinity: InfinityView = {
         let startView = InfinityView(frame: .zero)
         startView.scale(to: frame.size)
@@ -20,7 +20,7 @@ class InfinityActivityIndicatorView: ActivityIndicatorView {
         return InfinityTimeline(view: infinity, duration: 1, repeatCount: .greatestFiniteMagnitude)
     }
     
-    override func createView() -> UIView {
+    public override func createView() -> UIView {
         return infinity
     }
 }

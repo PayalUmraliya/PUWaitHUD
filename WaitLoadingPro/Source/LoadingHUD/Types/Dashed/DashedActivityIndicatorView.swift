@@ -6,7 +6,7 @@
 import UIKit
 
 @IBDesignable
-class DashedActivityIndicatorView: ActivityIndicatorView {
+public class DashedActivityIndicatorView: ActivityIndicatorView {
     private lazy var dashed: DashedView = {
         let startView = DashedView(frame: .zero)
         startView.scale(to: frame.size)
@@ -20,7 +20,7 @@ class DashedActivityIndicatorView: ActivityIndicatorView {
         return DashedTimeline(view: dashed, duration: 2.4, repeatCount: .greatestFiniteMagnitude)
     }
     
-    override func createView() -> UIView {
+    public override func createView() -> UIView {
         return dashed
     }
 }

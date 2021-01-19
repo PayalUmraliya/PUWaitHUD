@@ -8,10 +8,10 @@
 import Foundation
 import UIKit
 
-class ActivityIndicatorView: UIActivityIndicatorView {
+public class ActivityIndicatorView: UIActivityIndicatorView {
   public private(set) var view: UIView!
 
-    override func didMoveToSuperview() {
+    public override func didMoveToSuperview() {
         handleAnimating()
     }
 
@@ -34,7 +34,7 @@ class ActivityIndicatorView: UIActivityIndicatorView {
   }
 
   //add the animation view
-  private func setup() {
+  public func setup() {
     view = createView()
     layer.backgroundColor = UIColor.clear.cgColor
     layer.shadowRadius = 4
@@ -53,12 +53,12 @@ class ActivityIndicatorView: UIActivityIndicatorView {
     }
   }
 
-  override func startAnimating() {
+    public override func startAnimating() {
     super.startAnimating()
     timeline?.play()
   }
 
-  override func stopAnimating() {
+    public override func stopAnimating() {
     super.stopAnimating()
     timeline?.pause()
     timeline?.offset(to: 0)

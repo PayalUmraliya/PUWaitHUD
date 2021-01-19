@@ -22,7 +22,9 @@ func showLoading(_ vwname: UIView, _ typee: ActivityIndicatorType)
     let vw = UIView.init(frame: UIScreen.main.bounds)
     vw.tag = 99999
     vw.backgroundColor = UIColor.black.withAlphaComponent(0.5)
-    let activityView = ActivityIndicators.create(typee)
+    let activityView = ActivityIndicators().create(typee)
+    
+    //let activityView = ActivityIndicators.create(typee)
     vw.addSubview(activityView!)
     activityView?.color = .clear
     activityView?.center = vw.center

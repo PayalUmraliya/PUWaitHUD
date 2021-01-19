@@ -21,7 +21,7 @@ public enum ActivityIndicatorType: CaseIterable {
 }
 
 public class ActivityIndicators {
-    class func create(_ type: ActivityIndicatorType) -> ActivityIndicatorView? {
+     class func create(_ type: ActivityIndicatorType) -> ActivityIndicatorView? {
         let frame = CGRect(x: 0, y: 0, width: 70, height: 70)
         var indicator: ActivityIndicatorView?
         indicator?.color = .clear

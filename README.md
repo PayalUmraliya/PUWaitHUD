@@ -76,7 +76,9 @@ func hideLoading()
 }
 ```
 
-### Note: Above is the basic usage for the HUD you can manage the parameters for the functions as per your need in order to make it global.
+### Note: 
+
+Above is the basic usage for the HUD you can manage the parameters for the functions as per your need in order to make it global.
 
 ###
 

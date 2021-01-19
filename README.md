@@ -31,16 +31,6 @@ To specify with version:
 pod 'PUWaitHUD', :git => 'https://github.com/PayalUmraliya/PUWaitHUD.git', :branch => '1.0.4'
 ```
 
-### Swift Package Manager
-
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. To use PUWaitHUD with Swift Package Manger, add it to `dependencies` in your `Package.swift`
-
-```swift
-dependencies: [
-    .package(url: "in progress")
-]
-```
-
 ## Usage
 
 First you need to import `PUWaitHUD` at the view controller file where you are going to use.

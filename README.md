@@ -42,28 +42,13 @@ import PUWaitHUD
 ### Show HUD
 
 ```swift
-func showLoading(_ vwname: UIView, _ typee: ActivityIndicatorType)
-{
-    hideLoading()
-    let vw = UIView.init(frame: UIScreen.main.bounds)
-    vw.tag = 99999
-    vw.backgroundColor = UIColor.black.withAlphaComponent(0.5)
-    let activityView = ActivityIndicators().create(type: typee)
-    vw.addSubview(activityView!)
-    activityView?.color = .clear
-    activityView?.center = vw.center
-    activityView!.startAnimating()
-    vwname.addSubview(vw)
-}
+LoadingHud.showDefaultHUD(self.view,.dashed)
 ```
 
 ### Hide HUD
 
 ```swift
-func hideLoading()
-{
-    UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.viewWithTag(99999)?.removeFromSuperview()
-}
+LoadingHud.dismissHUD()
 ```
 
 ### Note: 
@@ -76,4 +61,11 @@ Above is the basic usage for the HUD you can manage the parameters for the funct
 
 The MIT License (MIT)
 
-Copyright (c) 2021 Payal Umralya [behappy78600@gmail.com]
+Copyright (c) 2021 TheKarma
+
+
+## Author
+
+Payal Umraliya [behappy78600@gmail.com] 
+
+ツツツツツツ

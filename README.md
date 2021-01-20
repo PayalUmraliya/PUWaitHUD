@@ -2,7 +2,7 @@
 
 ## Introduction
 
-`PUWaitHUD` is a few types of awesome loading animations that can be used to add as api response waiting indicators.
+`PUWaitHUD` is the collection of awesome loading animations that can be used to display as api response waiting indicators.
 
 ![Output](https://github.com/PayalUmraliya/PUWaitHUD/blob/main/hudoutput.gif)
 
@@ -28,7 +28,7 @@ pod 'PUWaitHUD'
 To specify with version:
 
 ```swift
-pod 'PUWaitHUD', :git => 'https://github.com/PayalUmraliya/PUWaitHUD.git', :branch => '1.0.4'
+pod 'PUWaitHUD', :git => 'https://github.com/PayalUmraliya/PUWaitHUD.git', :branch => '1.0.5'
 ```
 
 ## Usage

@@ -102,7 +102,6 @@
 		882C900D25B6D71E004E7092 /* LoadingHUD */ = {
 			isa = PBXGroup;
 			children = (
-				88C41E1C25B7067200893CE7 /* LoadingHud.swift */,
 				882C904625B6D750004E7092 /* Types */,
 				882C901425B6D71E004E7092 /* FlowCommon */,
 			);
@@ -143,6 +142,7 @@
 		882C904725B6D750004E7092 /* Dashed */ = {
 			isa = PBXGroup;
 			children = (
+				88C41E1C25B7067200893CE7 /* LoadingHud.swift */,
 				882C904825B6D750004E7092 /* ActivityIndicators.swift */,
 				882C904925B6D750004E7092 /* ActivityIndicatorView.swift */,
 				882C904A25B6D750004E7092 /* DashedActivityIndicatorView.swift */,

@@ -34,6 +34,6 @@ spec.swift_version = "4.2"
 
 
   spec.source_files  = "WaitLoadingPro/Source/**/*.{h,m,swift}"
-
+	spec.screenshot  = "https://raw.githubusercontent.com/PayalUmraliya/PUWaitHUD/main/hudoutput.gif"
 
 end

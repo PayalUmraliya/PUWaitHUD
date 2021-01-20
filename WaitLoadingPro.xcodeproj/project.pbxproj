@@ -35,11 +35,11 @@
 		882C906525B6D750004E7092 /* RipleyTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882C905725B6D750004E7092 /* RipleyTimeline.swift */; };
 		882C906625B6D750004E7092 /* RipleyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882C905825B6D750004E7092 /* RipleyView.swift */; };
 		88A1C4672594BFB000D18EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A1C4662594BFB000D18EC8 /* AppDelegate.swift */; };
-		88A1C4692594BFB000D18EC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A1C4682594BFB000D18EC8 /* SceneDelegate.swift */; };
 		88A1C46B2594BFB000D18EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A1C46A2594BFB000D18EC8 /* ViewController.swift */; };
 		88A1C46E2594BFB000D18EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A1C46C2594BFB000D18EC8 /* Main.storyboard */; };
 		88A1C4702594BFB200D18EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A1C46F2594BFB200D18EC8 /* Assets.xcassets */; };
 		88A1C4732594BFB200D18EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A1C4712594BFB200D18EC8 /* LaunchScreen.storyboard */; };
+		88C41E2025B7067200893CE7 /* LoadingHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C41E1C25B7067200893CE7 /* LoadingHud.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,12 +72,12 @@
 		882C905825B6D750004E7092 /* RipleyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipleyView.swift; sourceTree = "<group>"; };
 		88A1C4632594BFB000D18EC8 /* WaitLoadingPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitLoadingPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A1C4662594BFB000D18EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88A1C4682594BFB000D18EC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		88A1C46A2594BFB000D18EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88A1C46D2594BFB000D18EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88A1C46F2594BFB200D18EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88A1C4722594BFB200D18EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88A1C4742594BFB200D18EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C41E1C25B7067200893CE7 /* LoadingHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingHud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,7 @@
 		882C900D25B6D71E004E7092 /* LoadingHUD */ = {
 			isa = PBXGroup;
 			children = (
+				88C41E1C25B7067200893CE7 /* LoadingHud.swift */,
 				882C904625B6D750004E7092 /* Types */,
 				882C901425B6D71E004E7092 /* FlowCommon */,
 			);
@@ -202,7 +203,6 @@
 			children = (
 				882C900825B6D71E004E7092 /* Source */,
 				88A1C4662594BFB000D18EC8 /* AppDelegate.swift */,
-				88A1C4682594BFB000D18EC8 /* SceneDelegate.swift */,
 				88A1C46A2594BFB000D18EC8 /* ViewController.swift */,
 				88A1C46C2594BFB000D18EC8 /* Main.storyboard */,
 				88A1C46F2594BFB200D18EC8 /* Assets.xcassets */,
@@ -291,6 +291,7 @@
 				882C903525B6D71E004E7092 /* CATransaction+Extension.swift in Sources */,
 				882C903B25B6D71E004E7092 /* TextView.swift in Sources */,
 				882C903625B6D71E004E7092 /* CGPath+SVG.swift in Sources */,
+				88C41E2025B7067200893CE7 /* LoadingHud.swift in Sources */,
 				882C906325B6D750004E7092 /* QuarbitView.swift in Sources */,
 				882C903D25B6D71E004E7092 /* UIImage+Extension.swift in Sources */,
 				882C905C25B6D750004E7092 /* DashedTimeline.swift in Sources */,
@@ -307,7 +308,6 @@
 				882C903A25B6D71E004E7092 /* Sound.swift in Sources */,
 				882C905A25B6D750004E7092 /* ActivityIndicatorView.swift in Sources */,
 				882C903825B6D71E004E7092 /* NSShadow+Extension.swift in Sources */,
-				88A1C4692594BFB000D18EC8 /* SceneDelegate.swift in Sources */,
 				882C906625B6D750004E7092 /* RipleyView.swift in Sources */,
 				882C905E25B6D750004E7092 /* InfinityActivityIndicatorView.swift in Sources */,
 				882C903425B6D71E004E7092 /* CAMediaTimingFunction+Extension.swift in Sources */,
@@ -458,15 +458,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WaitLoadingPro/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.el.WaitLoadingPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,15 +479,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WaitLoadingPro/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.el.WaitLoadingPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -2,9 +2,6 @@
 //  ActivityIndicators.swift
 //  ActivityIndicatorView
 //
-//  Created by Travis on 2020-10-19.
-//  Copyright © 2020 Flow. All rights reserved.
-//
 
 import UIKit
 
@@ -33,6 +30,7 @@ public class ActivityIndicators {
         switch type {
         case .dashed:
             indicator = DashedActivityIndicatorView(frame: frame)
+            
         case .infinity:
             indicator = InfinityActivityIndicatorView(frame: frame)
         case .quarbit:

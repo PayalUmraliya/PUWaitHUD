@@ -2,8 +2,7 @@
 //  ActivityIndicatorView.swift
 //  Loader
 //
-//  Created by Travis on 2020-04-15.
-//  Copyright © 2020 Travis. All rights reserved.
+
 //
 import Foundation
 import UIKit

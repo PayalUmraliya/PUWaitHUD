@@ -26,7 +26,7 @@ This CocoaPods library helps you add loading HUD in your mobile application to d
 
   spec.author             = { "Payal U." => "behappy78600@gmail.com" }
  
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "12.0"
 spec.swift_version = "4.2"
 
 

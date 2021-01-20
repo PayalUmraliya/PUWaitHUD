@@ -39,13 +39,13 @@ First you need to import `PUWaitHUD` at the view controller file where you are g
 import PUWaitHUD
 ```
 
-### Show HUD
+### Show HUD Example
 
 ```swift
 LoadingHud.showDefaultHUD(self.view,.dashed)
 ```
 
-### Hide HUD
+### Hide HUD 
 
 ```swift
 LoadingHud.dismissHUD()
@@ -53,7 +53,7 @@ LoadingHud.dismissHUD()
 
 ### Note: 
 
-Above is the basic usage for the HUD you can manage the parameters for the functions as per your need in order to make it global.
+Above is the basic usage for the HUD, you can change type as per your need.
 
 ###
 
